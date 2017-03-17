@@ -1,0 +1,235 @@
+*{
+    font-family: Arial,sans-serif,SansSerif ;
+}
+a li:hover{
+    animation-name: all_animation;
+    animation-duration: 2s;
+}
+@keyframes all_animation {
+    0% {background-color: inherit}
+}
+#main{
+    animation-name: main_animation;
+    animation-duration: 5s;
+    height: 5000px;
+}
+@keyframes main_animation {
+    0%{background-color: lightskyblue}
+}
+.clear{
+    clear: both;
+}
+div.header{
+    float: right;
+    position: relative;
+    /*left: 10%; !* or right 50% *!*/
+    text-align: left;
+    background-image: url("header.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
+}
+h1.header{
+    font-size:100px;
+    text-align: center;
+    color: white;
+}
+p.header{
+    font-size: 40px;
+    text-align: center;
+    color: rgba(255,255,255,0.5);
+}
+div.body{
+
+}
+div.left_argument{
+    width: 100%;
+}
+div.left_argument{
+    width: 100%;
+}
+div.left_argument{
+    float: left;
+    position: relative;
+    width:20%;
+    height: auto;
+    margin: 0px;
+    padding:0px;
+}
+ul.left_argument{
+    margin-left: 0px;
+    list-style-type: none;
+}
+ul.left_argument a li{
+    border-radius: 20px;
+    border: 2px solid lightskyblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    margin-right: 20px;
+    margin-left: 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+ul.left_argument a li:hover{
+    background-color: lightskyblue;
+}
+ul.left_argument a li:active{
+    background-color: deepskyblue;
+}
+ul.left_argument a{
+    background-color: transparent;
+    text-decoration: none;
+}
+ul.left_argument a:visited{
+    color: black;
+}
+ul.left_argument a:link{
+    color: black;
+}
+.right_argument{
+    margin-top: 0px;
+    float: right;
+    width:75%;
+}
+#About_us ,#Syllabus ,#Leader ,#Developers , #Google_Doc{
+    border-radius: 100px;
+    padding: 30px;
+    margin-top: 20px;
+    width: 94%;
+    height: auto;
+    background-image: url("right.jpg");
+}
+table {
+    height: 100%;
+    margin: 20px auto 20px auto;
+    overflow-y: scroll;
+    position: static;
+    width: 80%;
+    padding-bottom: 30px;
+}
+thead th {
+    background-color: rebeccapurple;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+tr {
+    background: #f4f7f8;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 5px;
+}
+tr:hover{
+    animation-name: table_animation;
+    background-color: #2d00cc;
+    animation-duration: 2s;
+    color:white;
+}
+@keyframes table_animation {
+    0% {background-color: #f4f7f8}
+    100%{background-color: #2d00cc}
+}
+th, td {
+    font-size:18px;
+    font-weight: 400;
+    padding: 20px;
+    text-align: center;
+}
+td.check{
+    width: 10%;
+}
+td.check div{
+    margin: auto;
+    border:1px solid #888888;
+    width: 20px;
+    height: 20px;
+}
+td.check div.checked{
+    background-color: rebeccapurple;
+}
+td.check div.unchecked{
+    background-color: #f4f7f8;
+}
+td.duty{
+    width: 65%;
+}
+td.deadline{
+    width: 25%;
+}
+ul.developers{
+    list-style-type: none;
+}
+li.developers{
+    background-image: url("info.jpg");
+    margin-top:30px;
+    border-radius: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+    height: 200px;
+}
+li.developers:hover{
+    animation-name: div_animation;
+    animation-duration: 2s;
+    background-image: url("images.jpg");
+    color: #FFFFFF;
+}
+@keyframes div_animation {
+    0%{background-image: url("info.jpg")}
+}
+div.images{
+    position: absolute;
+    float: left;
+}
+img.image{
+    width: 200px;
+    height: 200px;
+}
+div.info{
+    float: left;
+    margin-left: 200px;
+}
+div.info h2{
+    margin-left: 20px;
+    text-align: center;
+}
+ul.google_doc{
+    margin-left: 0px;
+    list-style-type: none;
+}
+ul.google_doc a li{
+    margin-top: 10px;
+    background-color: turquoise;
+    border: 1px solid lightskyblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    margin-right: 20px;
+    margin-left: 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+ul.google_doc a li:hover{
+    background-color: blue;
+    color: white;
+}
+ul.google_doc a li:active{
+    background-color: darkblue;
+    color: white;
+}
+ul.google_doc a{
+    background-color: transparent;
+    text-decoration: none;
+}
+ul.google_doc a:visited{
+    color: black;
+}
+ul.google_doc a:link{
+    color: black;
+}
